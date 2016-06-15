@@ -1,8 +1,9 @@
+//创建蛇对象
 function Snake(m, n){
     this.x = m;
     this.y = n;
 }
-
+//定义食物对象
 function Food(m, n){
     this.x = m;
     this.y = n;
