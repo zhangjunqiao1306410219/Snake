@@ -1,0 +1,91 @@
+/*游戏标题的样式，
+显示方式、外边框和自动居中、宽度、文字对齐方式
+*/
+header{
+    display:block;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+}
+
+/*游戏标题的样式，
+字体、字体大小、粗体
+*/
+header h1{
+    font-family:Arial;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/*游戏按键的样式，
+显示方式、外边框和自动居中，
+宽度、内填充、背景色，
+字体、颜色，
+圆角、隐藏下划线
+*/
+header #newgamebutton{
+    display:block;
+    margin:10px auto;
+
+    width:100px;
+    padding:10px 10px;
+    background-color:#8f7a66;
+
+    font-family:Arial;
+    color:white;
+
+    border-radius:10px;
+    text-decoration:none;
+}
+
+/*鼠标悬浮在游戏按键时的样式，
+背景色
+*/
+header #newgamebutton:hover{
+    background-color:#9f8b77;
+}
+
+/*游戏得分的样式，
+字体、字体大小、外边框和自动居中
+*/
+header p{
+    font-family:Arial;
+    font-size:25px;
+    margin:10px auto;
+}
+
+/*游戏得分变化的样式，颜色
+*/
+#oa{
+    color:red;
+}
+
+/*棋盘格底部的容器的样式，
+宽度、高度、内填充，
+外边框和自动居中、背景颜色，
+圆角、定位方式
+*/
+#grid-container{
+    width:480px;
+    height:480px;
+    padding:20px;
+
+    margin:10px auto;
+    background-color:#bbada0;
+
+    border-radius: 10px;
+    position: relative;
+}
+
+/*棋盘格数字底部的容器的样式，
+宽度、高度、圆角、背景颜色，
+定位方式
+*/
+.grid-cell{
+    width:20px;
+    height:20px;
+    background-color:#ccc0b3;
+
+    position: absolute;
+}
+
